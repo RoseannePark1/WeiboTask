@@ -4,8 +4,8 @@ on:
   watch:
     types: started
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 16 * * *' #凌晨00:00执行'
+  schedule:
+   - cron: '0 1 * * *' #凌晨00:00执行'
 
 jobs:
   run:
